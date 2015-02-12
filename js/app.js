@@ -7,7 +7,9 @@ var Sound = function(fname) {
 }
 
 var sean = {
-	'camera-click': new Sound('sean/camera-click')
+	'but_sean': new Sound('sean/but_sean'),
+	'what_is_that_not': new Sound('sean/what_is_that_not'),
+	'yes_but_opposite': new Sound('sean/yes_but_opposite')
 }
 
 var jesse = {

@@ -2,6 +2,70 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: sans-serif;
+	background: #333;
+}
+
+body>h1 {
+	margin-top: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.people {
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	width: 600px;
+	height: 600px;
+	background: url('../img/ga_circle.svg');
+	background-size: contain;
+	border-radius: 100%;
+}
+
 .person {
 	display: inline-block;
+	position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 5px;
+}
+
+.headshot {
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	background-size: cover;
+	margin-bottom: 1.2em;
+}
+
+.sean .headshot {
+	background: url('../img/sean.jpeg');
+}
+
+.jesse .headshot {
+	background: url('../img/jesse.jpeg');
+}
+
+.sound {
+	cursor: pointer;
+	background: #fff;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.sound:hover {
+	background: #000;
+	color: #fff;
+}
+
+.sound:active {
+	-webkit-box-shadow: 0 0 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0 0 10px 0px rgba(0,0,0,0.75);
+	transform: translate(2px,2px)
 }
